@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    overflow: hidden;
+}
+
+.nav-item a:hover {
+    background: skyblue; 
+    font-size: 150%;
+}
+
+.container-fluid {
+    padding: 2%;
+    height: 100vh;
+}
+
+ iframe{
+    width: 55%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 0 30px 0 skyblue
+ }
+
+body {
+    background-image: url("https://picsum.photos/1000/700?random=2");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#slides {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-right: -3%; 
+    height: 80vh;
+    width: auto;
+}
+
+#game {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#score {
+    font-size: 200%;
+}
+
+/* .row {
+    padding: 20px 10px;
+    border: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  } */
+
+#footContent {
+    height: 10%;
+    padding: 1%;
+    margin: 0%;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#socials{
+    display: flex;
+    flex-direction: row;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+}
